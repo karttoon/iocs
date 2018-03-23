@@ -1,0 +1,9 @@
+##############################
+# TeamViewer PCRE Collection #
+# @noottrak                  #
+# Updated 09MAR2018          #
+##############################
+# 01 gate.php%3fclient%5fid=00f18f71%26connected=0%26server%5fport=0%26debug=0
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+gate\.php(%3[Ff]|\/)client(%5[Ff]|_)id=[a-z0-9]{8}(%26|&)connected=[0-1](%26|&)	karttoon 09MAR2018 - TeamViewer BackConnect [ gate.php%3fclient%5fid=00f18f71%26connected=0%26server%5fport=0%26debug=0 ]

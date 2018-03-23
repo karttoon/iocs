@@ -1,0 +1,9 @@
+###########################
+# Gootkit PCRE Collection #
+# @noottrak               #
+# Updated 14MAR2018       #
+###########################
+# 01 rbody32
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+(rbody(32|64|320)|rpersist2)(\/[0-9]{8})?(\/)?$	karttoon 14MAR2018 - Gootkit C2 [ rbody32 ]

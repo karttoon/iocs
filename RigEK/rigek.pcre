@@ -1,0 +1,9 @@
+############################
+# RigEK PCRE Collection    #
+# @noottrak                #
+# Updated 23MAR2018        #
+############################
+# 01 ?MzA0ODMx&cnipZGukUyQz&thsdf34d=sEaAXl2BGGeAM0lYsPVlMapamrikmGzBCagMKE_hKEYV5AqsDAEbQL0Vj1zLARQJYkhxWy&GvFUZRzQYupZvBF=bG9jYXRlZA==&reGJUIeIUjKhFH=dGFraW5n&ndf256Cs=wnjQMvXcLhXQFYbDKuXDSKZDKU7WGUaVw4-dhMG3YpjNfynz0uzURnL1tASVVFiRrbMdKb&henbOiEuMlIkcHQ=bG9jYXRlZA==&fHzePD=bG9jYXRlZA==&GoTKVDFDHny=cG9wdWxhcg==&lFRgVyaalGc=bG9jYXRlZA==&LxelodGE=Y2FwaXRhbA==
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+\?[MNO][DTjz][AEIMQUYcgk][012345wxyz][MNO][DTjz][AEIMQUYcgk][012345wxyz=](&[a-zA-Z0-9]+)?(&[a-zA-Z0-9]+=[a-zA-Z0-9-_=]+){8,11}	karttoon 23MAR2018 - RigEK DL [ ?MzA0ODMx&cnipZGukUyQz&thsdf34d=sEaAXl2BGGeAM0lYsPVlMapamrikmGzBCagMKE_hKEYV5AqsDAEbQL0Vj1zLARQJYkhxWy&GvFUZRzQYupZvBF=bG9jYXRlZA==&reGJUIeIUjKhFH=dGFraW5n&ndf256Cs=wnjQMvXcLhXQFYbDKuXDSKZDKU7WGUaVw4-dhMG3YpjNfynz0uzURnL1tASVVFiRrbMdKb&henbOiEuMlIkcHQ=bG9jYXRlZA==&fHzePD=bG9jYXRlZA==&GoTKVDFDHny=cG9wdWxhcg==&lFRgVyaalGc=bG9jYXRlZA==&LxelodGE=Y2FwaXRhbA== ]

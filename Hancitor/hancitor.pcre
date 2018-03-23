@@ -1,0 +1,18 @@
+############################
+# Hancitor PCRE Collection #
+# @noottrak                #
+# Updated 09MAR2018        #
+############################
+# 01 ls5/forum.php
+# 02 mlu/forum.php
+# 03 d2/about.php
+# 04 wp-content/plugins/contact-form-7/includes/1
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+ls5\/forum\.php$	karttoon 09MAR2018 - Hancitor C2 [ ls5/forum.php ]
+# 02
+^(http(s)?:\/\/)?([^\x2F]+\/)+mlu\/forum\.php$	karttoon 09MAR2018 - Hancitor Pony C2 [ mlu/forum.php ]
+# 03
+^(http(s)?:\/\/)?([^\x2F]+\/)+d2\/about\.php$	karttoon 09MAR2018 - Hancitor Evil-Pony [ d2/about.php ]
+# 04
+^(http(s)?:\/\/)?([^\x2F]+\/)+wp-content\/plugins\/[a-z-]+\/(includes\/|inc\/)?[1-4]$	karttoon 09MAR2018 - Hancitor DL [ wp-content/plugins/contact-form-7/includes/1 ]

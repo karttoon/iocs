@@ -1,0 +1,12 @@
+##########################
+# Ursnif PCRE Collection #
+# @noottrak              #
+# Updated 16MAR2018      #
+##########################
+# 01 zxciuniqhweizsds.com/NOD/viv.class
+# 02 files/red.php
+##########
+# 01
+^(http(s)?:\/\/)?([a-z]{16,23}|([0-9]{1,3}\.){3}[0-9]{1,3})(\.com)?\/([a-z]{3}|[A-Z]{3})\/[a-z]{3,7}\.class$	karttoon 16MAR2018 - Ursnif DL [ zxciuniqhweizsds.com/NOD/viv.class ]
+# 02
+^(http(s)?:\/\/)?([^\x2F]+\/)+(stat|api|files|thumb|agenti|images|shop|1300|itexe)\/(red|ri)\.php$	karttoon 14MAR2018 - Ursnif C2 [ files/red.php ]
