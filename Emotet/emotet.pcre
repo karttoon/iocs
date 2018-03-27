@@ -85,7 +85,7 @@
 # 08
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(ORDER|Acknowledgement)-[0-9]{3}-[0-9]{6}(\/)?$	karttoon 26FEB2018 - Emotet C2 [ ORDER-896-646315 ]
 # 09
-^(http(s)?:\/\/)?([^\x2F]+\/)+(ORDER|Inv|C[Uu][Ss][Tt]|PAYMENT|Acknowledgement|No|Inv|Cust)-([A-Z]{4,6}-)?[0-9]{3}-[0-9]{6}(-[0-9]{8,10})?(\/)?$	karttoon 02MAR2018 - Emotet C2 [ ORDER-WAVC-344-878248 ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+(ORDER|Inv|C[Uu][Ss][Tt]|PAYMENT|Acknowledgement|No|Inv|Cust|Rech)-([A-Z]{4,6}-)?[0-9]{3}-[A-Z0-9]{5,6}(-[0-9]{8,10})?(\/)?$	karttoon 27MAR2018 - Emotet C2 [ ORDER-WAVC-344-878248 ]
 # 10
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(ORDER|Rech|CUST|Cust|gescanntes|Scan)(.)?(-Document|-Dokument)?-([0-9]{10,11}|[0-9]{6}-[0-9]{5})(\/)?$	karttoon 27FEB2018 - Emotet C2 - [ ORDER.-5883789520 ]
 # 11
@@ -125,7 +125,7 @@
 # 28
 ^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-Corrections-for-[0-9]{7}(\/)?$	karttoon 20FEB2018 - Emotet C2 [ Invoice-Corrections-for-3962185 ]
 # 29
-^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-[0-9]{4,8}(-reminder|-Message|-February)?(\/)?$	karttoon 20FEB2018 - Emotet C2 [ Invoice-8481-reminder ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-[0-9]{4,8}(-reminder|-Message|-February|-March)?(\/)?$	karttoon 27MAR2018 - Emotet C2 [ Invoice-8481-reminder ]
 # 30
 ^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-for-[0-9a-z]{1,2}\/[0-9a-z]{1,2}-[0-9]{2}\/[0-9]{2}\/201[0-9](\/)?$	karttoon 16FEB2018 - Emotet C2 [ Invoice-for-94/87-02/16/2018 ]
 # 31
