@@ -17,4 +17,4 @@
 # 04
 ^(http(s)?:\/\/)?([^\x2F]+\/)+[a-z_]{2,11}[0-9]?\.(gif|jpg|png)\?[a-z0-9]{5,7}=[0-9]{6,9}$	karttoon 15MAY2018 - Ursnif C2 [ logos.gif?1d7bfa3=123666060 ]
 # 05
-^(http(s)?:\/\/)?([^\x2F]+\/)+images\/([a-zA-Z0-9_]{1,23}\/){9,16}[a-zA-Z0-9_]{0,8}\.(gif|bmp|jpeg|avi)$	karttoon 15MAY2018 - Ursnif C2 [ images/lp8HUAb5MFVC54msW_2FcO/jQD_2F8TZjkSJ/botnC_2F/JYiVLGocALZe80Z3ahUiGcH/5VQ8736ALb/W8136oP9BA_2Fg50S/FYjMXz7MUHKL/2XLIX1CnvOi/1jMSxy3Z9MsOg2/HFClyCllq2KzfLvAaeAZr/o4L4SIL.gif ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+images\/([a-zA-Z0-9_]{1,23}\/){9,16}(?<!menu\/)[a-zA-Z0-9_]{0,8}\.(gif|bmp|jpeg|avi)$	karttoon 15MAY2018 - Ursnif C2 [ images/lp8HUAb5MFVC54msW_2FcO/jQD_2F8TZjkSJ/botnC_2F/JYiVLGocALZe80Z3ahUiGcH/5VQ8736ALb/W8136oP9BA_2Fg50S/FYjMXz7MUHKL/2XLIX1CnvOi/1jMSxy3Z9MsOg2/HFClyCllq2KzfLvAaeAZr/o4L4SIL.gif ]
