@@ -1,0 +1,8 @@
+##########################
+# Sality PCRE Collection #
+# @noottrak              #
+##########################
+# 01 logos.gif?1d7bfa3=123666060
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+[a-z_]{2,11}[0-9]?\.(gif|jpg|png)\?[a-z0-9]{5,7}=[0-9]{6,9}$	karttoon 25MAY2018 - Sality C2 [ logos.gif?1d7bfa3=123666060 ]
