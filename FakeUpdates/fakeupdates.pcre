@@ -1,0 +1,8 @@
+###############################
+# FakeUpdates PCRE Collection #
+# @noottrak                   #
+##############################
+# 01 s_code.js?cid=221&v=8fdbe4223f0230a93678 
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+s_code\.js\?cid=[0-9]{3}&v=[a-z0-9]{20}(\/)?$	karttoon 04JUN2018 - FakeUpdates Redirect [ s_code.js?cid=221&v=8fdbe4223f0230a93678 ]
