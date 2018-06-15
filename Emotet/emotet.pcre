@@ -53,7 +53,7 @@
 # 49 ATSQD-602278-1007
 # 50 NUDA-X-52454-DE
 # 51 Invoice-number-2423609856
-# 52 invoice-corrections-for-37/86
+# 52 
 # 53 Purchases-2017
 # 54 zp3x-r88-wuh.view
 # 55 LUqc663BAyN333-HoO
@@ -69,6 +69,16 @@
 # 65 Rechnungs-Details/Y8J5F
 # 66 Rechnung-Nr-26690/21JYR0YP1KI
 # 67 INVOICE/UQ-753529572793768
+# 68 IRS-Tax-Transcipts-04T/48
+# 69 STATUS/Account-99386
+# 70 Invoice-70872717-Invoice-date-061218-Order-no-5545897287
+# 71 Client/Emailing-H667564FV-45577
+# 72 FILE/Invoice-18520036589-06-12-2018
+# 73 STATUS/New-Invoice-LR52783-FP-52816
+# 74 DOC/Services-06-13-18-New-Customer-OC
+# 75 FILE/Auditor-of-State-Notification-of-EFT-Deposit
+# 76 UPS-Invoices-06122018-049/5
+# 77 UPS-US-INV-00F/7
 ##########
 # 01
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(([0-9]{5,11}\/[0-9]{5,11}|[A-Z0-9]{10,16}\/[0-9]{5,11}|[A-Z0-9]{6,18})\/)?[A-Z]{2,4}-[A-Z]{2,5}\/201[0-9]-[0-9]{2}-[A-Z][a-z]{2}-[0-9]{2}(\/)?$	karttoon 26FEB2018 - Emotet C2 [ 1637756/748179/CLFJ-QEMF/2017-17-Oct-17 ]
@@ -83,7 +93,7 @@
 # 06
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(Invoices-payments-and-questions|Payment-on-Invoices)(-[A-Z]{4,6})?-[0-9]{3}-[0-9]{6}(-[0-9]{10})?(\/)?$	karttoon 28FEB2018 - Emotet C2 [ Invoices-payments-and-questions-GSNXWR-554-678932 ]
 # 07
-^(http(s)?:\/\/)?([^\x2F]+\/)+(LLC|DOC|FILE|INFO|Document|Download|Corporation|xerox|PayPal(-US|\.com)?|PAYPAL)\/(Invoice|INFO|Corporation|DOC|LLC)(\/)?$	karttoon 26FEB2018 - Emotet C2 [ LLC/Invoice ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+(LLC|DOC|FILE|INFO|Document|Download|Corporation|xerox|PayPal(-US|\.com)?|PAYPAL|STATUS)\/([Ii]nvoice(s)?|INFO|Corporation|DOC|LLC)(\/)?$	karttoon 14JUN2018 - Emotet C2 [ LLC/Invoice ]
 # 08
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(ORDER|Acknowledgement)-[0-9]{3}-[0-9]{6}(\/)?$	karttoon 26FEB2018 - Emotet C2 [ ORDER-896-646315 ]
 # 09
@@ -105,7 +115,7 @@
 # 17 - 2 Word
 ^(http(s)?:\/\/)?([^\x2F]+\/)+([Ii]nvoice(s)?|[Oo][Vv][Ee][Rr][Dd][Uu][Ee]|Outstanding|Order|Final|[Ii][Nn][Cc][Oo][Rr]{2}[Ee][Cc][Tt]|[Oo]pen|Important|Paid|[Dd][Hh][Ll]|Sales|Service|ACH|Transaction|Payment|Address|New|Latest|Receipt)-([Oo]verdue|attached|payment|[Ii][Nn][Vv][Oo][Ii][Cc][Ee](s)?|Confirmation|Account|[Ee]xpress|number|[Rr]eceipt|form|[Dd]etails|Tracking|problem|[Aa][Cc]{2}[Oo][Uu][Nn][Tt]|Changed|Address|issue|Update|enclosed|order)(})?(\/)?$	karttoon 27MAR2018 - Emotet C2 [ Invoices-attached ]
 # 18 - 3 Word
-^(http(s)?:\/\/)?([^\x2F]+\/)+([Oo]pen-|[0-9]-|-)?([Pp]ast|Important|[Ii]nvoice|[Nn]ew|Change|Money|Payment|[Dd]etails|Due|Bill|Wire)-([Dd]ue|Please|for|order|of|transfer|payment|and|to|balance|address)-(Invoice(s)?|Read|you|[Oo]rders|upcoming|[Aa]ddress(\.)?|details|notification|notice|address|update|paid|change|info)(})?(\/)?$	karttoon 27MAR2018 - Emotet C2 [ Past-Due-Invoices ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+([Oo]pen-|[0-9]-|-)?([Pp]ast|Important|[Ii]nvoice|[Nn]ew|Change|Money|Payment|[Dd]etails|Due|Bill|Wire)-([Dd]ue|Please|for|order|of|transfer|payment|and|to|balance|address)-([Ii]nvoice(s)?|Read|you|[Oo]rders|upcoming|[Aa]ddress(\.)?|details|notification|notice|address|update|paid|change|info)(})?(\/)?$	karttoon 14JUN2018 - Emotet C2 [ Past-Due-Invoices ]
 # 19 - 4 Word
 ^(http(s)?:\/\/)?([^\x2F]+\/)+([Mm]y|Recent|Address)-(current|money|and)-(address|transfer|payment)-(update|details|info)(\/)?$	karttoon 27MAR2018 - Emotet C2 [ My-current-address-update ]
 # 20
@@ -125,7 +135,7 @@
 # 27
 ^(http(s)?:\/\/)?([^\x2F]+\/)+Ihre-Bestellung-wurde-versendet(-[A-Z]{3})?-[0-9]{5,9}(\/)?$	karttoon 02MAR2018 - Emotet C2 [ Ihre-Bestellung-wurde-versendet-79533 ]
 # 28
-^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-Corrections-for-[0-9]{7}(\/)?$	karttoon 20FEB2018 - Emotet C2 [ Invoice-Corrections-for-3962185 ]
+^(http(s)?:\/\/)?([^\x2F]+\/)+([Ii]nvoice|Service)-([Cc]orrections|Report)(-for)?-[0-9]{2,7}(\/([0-9]{2}|[A-Z][a-z]{2,5}\/[0-9]{4}))?(\/)?$	karttoon 15JUN2018 - Emotet C2 [ Invoice-Corrections-for-3962185 ]
 # 29
 ^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-[0-9]{4,8}(-reminder|-Message|-February|-March)?(\/)?$	karttoon 27MAR2018 - Emotet C2 [ Invoice-8481-reminder ]
 # 30
@@ -173,7 +183,6 @@
 # 51
 ^(http(s)?:\/\/)?([^\x2F]+\/)+([Ii]nvoice|Service|Summit)-(due-|Companies-|Corrections-)?([Nn]umber|Report|Invoice|for)-[0-9\-]{4,13}(-Notification)?(\/)?$	karttoon 05MAR2018 - Emotet C2 [ Invoice-number-2423609856 ]
 # 52
-^(http(s)?:\/\/)?([^\x2F]+\/)+([Ii]nvoice|Service)-([Cc]orrections|Report)(-for)?-[0-9]{2}\/[0-9]{2}(\/)?$	karttoon 27MAR2018 - Emotet C2 [ invoice-corrections-for-37/86 ]
 # 53
 ^(http(s)?:\/\/)?([^\x2F]+\/)+[Pp]urchases-201[0-9](\/)?$	karttoon 20FEB2018 - Emotet C2 [ Purchases-2017 ]
 # 54
@@ -204,6 +213,26 @@
 ^(http(s)?:\/\/)?([^\x2F]+\/)+[Rr][Ee][Cc][Hh][Nn][Uu][Nn][Gg]-(Nr-)?[0-9]{5}\/[a-zA-Z0-9]{7,12}(\/)?$	karttoon 29MAR2018 - Emotet C2 - [ Rechnung-Nr-26690/21JYR0YP1KI ]
 # 67
 ^(http(s)?:\/\/)?([^\x2F]+\/)+([Ww][Ii][Rr][Ee]-[Ff][Oo][Rr][Mm]|[Ii][Nn][Vv]([Oo][Ii][Cc][Ee])?|[Aa][Cc][Hh]-[Ff][Oo][Rr][Mm])\/[a-zA-Z]{2,3}-[0-9]{3,15}(\/)?$	karttoon 29MAR2018 - Emotet C2 - [ INVOICE/UQ-753529572793768 ]
+# 68
+^(http(s)?:\/\/)?([^\x2F]+\/)+IRS-([Tt][Aa][Xx]-|Accounts-)?(T[Rr][Aa][Nn][Ss][Cc][Rr]?[Ii][Pp][Tt][Ss]|Letters)-(June-)?[0-9]{2,6}[A-Z]?(-[0-9]{2,4}[A-Z]?)?(\/[0-9]{1,2})?(\/)?$	karttoon 14JUN2018 - Emotet DL - [ IRS-Tax-Transcipts-04T/48 ]
+# 69
+^(http(s)?:\/\/)?([^\x2F]+\/)+(STATUS|ACCOUNT|FILE)\/[Aa][Cc]{2}[Oo][Uu][Nn][Tt](-)?[0-9]{5,6}(\/)?$	karttoon 14JUN2018 - Emotet DL - [ STATUS/Account-99386 ]
+# 70
+^(http(s)?:\/\/)?([^\x2F]+\/)+Invoice-[0-9]{8,9}-Invoice-date-[0-9]{6}-Order-no-[0-9]{10,11}(\/)?$	karttoon 14JUN2018 - Emotet DL - [ Invoice-70872717-Invoice-date-061218-Order-no-5545897287 ]
+# 71
+^(http(s)?:\/\/)?([^\x2F]+\/)+Client\/Emailing-[A-Z][0-9]{5,6}[A-Z]{2}-[0-9]{5}(\/)?$	karttoon 14JUN2018 - Emotet DL - [ Client/Emailing-H667564FV-45577 ]
+# 72
+^(http(s)?:\/\/)?([^\x2F]+\/)+FILE\/Invoice-[0-9]{11}-[0-9]{2}-[0-9]{2}-[0-9]{4}(\/)?$	karttoon 14JUN2018 - Emotet DL - [ FILE/Invoice-18520036589-06-12-2018 ]
+# 73
+^(http(s)?:\/\/)?([^\x2F]+\/)+(ACCOUNT|STATUS|FILE)\/(Customer|New)-Invoice-([A-Z]{2}[0-9]{4,5}-)?[A-Z]{2}-[0-9]{4,8}(\/)?$	karttoon 15JUN2018 - Emotet DL - [ STATUS/New-Invoice-LR52783-FP-52816 ]
+# 74
+^(http(s)?:\/\/)?([^\x2F]+\/)+(DOC|ACCOUNT)\/Services-[0-9]{2}-[0-9]{2}-[0-9]{2}-New-Customer-[A-Z]C(\/)?$	karttoon 15JUN2018 - Emotet DL - [ DOC/Services-06-13-18-New-Customer-OC ]
+# 75
+^(http(s)?:\/\/)?([^\x2F]+\/)+FILE\/Auditor-of-State-Notification-of-EFT-Deposit(\/)?$	karttoon 15JUN2018 - Emotet DL - [ FILE/Auditor-of-State-Notification-of-EFT-Deposit ]
+# 76
+^(http(s)?:\/\/)?([^\x2F]+\/)+UPS-Invoices-[0-9]{8}-[0-9]{3}\/[0-9](\/)?$	karttoon 15JUN2018 - Emotet DL - [ UPS-Invoices-06122018-049/5 ]
+# 77
+^(http(s)?:\/\/)?([^\x2F]+\/)+UPS-US-INV-[0-9]{2}[A-Z]\/[0-9](\/)?$	karttoon 15JUN2018 - Emotet DL - [ UPS-US-INV-00F/7 ]
 ######################
 # Generic / FP Heavy #
 ######################
