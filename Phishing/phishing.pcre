@@ -1,0 +1,8 @@
+############################
+# Phishing PCRE Collection #
+# @noottrak                #
+############################
+# 01 microsoft-help/criticalsecurity-24x7-helpline/security.php 
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+microsoft-help\/criticalsecurity-24x7-helpline\/security.php$	karttoon 30AUG2018 - MS Phishing [ microsoft-help/criticalsecurity-24x7-helpline/security.php ]
