@@ -1,0 +1,8 @@
+######################################
+# Godzilla Loader PCRE Collection    #
+# @noottrak                          #
+######################################
+# 01 godzilla/gate.php?g=-776582895&k=5hq2jGgkh5vinrBdefA4JnmN1
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+gate\.php\?g=(-)?[0-9]{8,10}&k=[A-Za-z0-9]{25}	karttoon 07SEP2018 - Godzilla Loader C2 [ godzilla/gate.php?g=-776582895&k=5hq2jGgkh5vinrBdefA4JnmN1 ]
