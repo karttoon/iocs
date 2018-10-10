@@ -1,0 +1,8 @@
+##########################
+# Evrial PCRE Collection #
+# @noottrak              #
+##########################
+# 01 /~microtro/gate.php?hwid=18AF1C0D&os=Windows%20XP&file=1&cookie=0&pswd=0&credit=0&autofill=0&wallets=0&telegram=0&version=v1.2.0
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)+(\/)?gate\.php\?hwid=[a-zA-Z0-9-]+&os=[a-zA-Z0-9%-]+(&file=[0-9])?(&cookie=[0-9])?(&pswd=[0-9])?(&credit=[0-9])?(&autofill=[0-9])?(&wallets=[0-9])?(&telegram=[0-9])?&version=v[0-9]\.[0-9]\.[0-9]$	karttoon 10OCT2018 - Evrial C2 [ /~microtro/gate.php?hwid=18AF1C0D&os=Windows%20XP&file=1&cookie=0&pswd=0&credit=0&autofill=0&wallets=0&telegram=0&version=v1.2.0 ]
