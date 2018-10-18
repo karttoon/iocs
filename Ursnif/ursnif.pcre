@@ -5,7 +5,9 @@
 # 01 zxciuniqhweizsds.com/NOD/viv.class
 # 02 files/red.php
 # 03 yyjqnwejqnweqweq.com/ARN/testv.php?l=uner10.yarn
+# 04 derwagiete.com/RUI/levond.php?l=goks4.xap
 # 05 images/lp8HUAb5MFVC54msW_2FcO/jQD_2F8TZjkSJ/botnC_2F/JYiVLGocALZe80Z3ahUiGcH/5VQ8736ALb/W8136oP9BA_2Fg50S/FYjMXz7MUHKL/2XLIX1CnvOi/1jMSxy3Z9MsOg2/HFClyCllq2KzfLvAaeAZr/o4L4SIL.gif
+# 06 RTT/opanskot.php?l=okb5.tkn
 ##########
 # 01
 ^(http(s)?:\/\/)?([a-z]{15,26}|([0-9]{1,3}\.){3}[0-9]{1,3})(\.com)?\/([a-z]{3,5}|[A-Z]{2,5}|[a-z]{5}_[a-z]{4,6})\/[a-z]{3,8}[0-9]?\.(class|pfx|(t|l)zm|sam|mdf)$	karttoon 15MAY2018 - Ursnif DL [ zxciuniqhweizsds.com/NOD/viv.class ]
@@ -14,5 +16,8 @@
 # 03
 ^(http(s)?:\/\/)?([a-z0-9]{9,28}|([0-9]{1,3}\.){3}[0-9]{1,3})(\.com|\.net)?\/([a-z]{3,5}|[A-Z]{2,5}|[a-z]{5,8}_[a-z]{4,6})\/[a-z]{3,7}\.php\?(l|utma)=[a-z]{2,8}([0-9]{1,2})?(\.(yarn|class))?$	karttoon 15MAY2018 - Ursnif Dl [ yyjqnwejqnweqweq.com/ARN/testv.php?l=uner10.yarn ]
 # 04
+^(http(s)?:\/\/)?[a-z]{9,16}\.com\/(YUY|RUI)\/(huonasdh|levond)\.php\?l=[a-z]{2,5}[0-9]\.(tkn|xap)$	karttoon 18OCT2018 - Ursnif DL [ derwagiete.com/RUI/levond.php?l=goks4.xap ]
 # 05
 ^(http(s)?:\/\/)?([^\x2F]+\/)+images\/([a-zA-Z0-9_]{1,23}\/){9,16}(?<!menu\/)[a-zA-Z0-9_]{0,8}\.(gif|bmp|jpeg|avi)$	karttoon 15MAY2018 - Ursnif C2 [ images/lp8HUAb5MFVC54msW_2FcO/jQD_2F8TZjkSJ/botnC_2F/JYiVLGocALZe80Z3ahUiGcH/5VQ8736ALb/W8136oP9BA_2Fg50S/FYjMXz7MUHKL/2XLIX1CnvOi/1jMSxy3Z9MsOg2/HFClyCllq2KzfLvAaeAZr/o4L4SIL.gif ]
+# 06
+^(http(s)?:\/\/)?([^\x2F]+\/)+RTT\/opanskot\.php\?l=[a-z]{3,5}[0-9]{1,2}\.tkn$	karttoon 18OCT2018 - Ursnif DL [ RTT/opanskot.php?l=okb5.tkn ]
