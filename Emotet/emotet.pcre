@@ -83,6 +83,7 @@
 # 79 Statement/Invoice-91920794055-06-18-2018
 # 80 cUGTV-Mv57WkQ3GM0CpaW_MVxDZUpCc-Ov/
 # 81 support/nachpr/2019-04/
+# 82 available_resource/special_warehouse/73mp_2yw19wws132w0/
 ##########
 # 01
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(([0-9]{5,11}\/[0-9]{5,11}|[A-Z0-9]{10,16}\/[0-9]{5,11}|[A-Z0-9]{6,18})\/)?[A-Z]{2,4}-[A-Z]{2,5}\/201[0-9]-[0-9]{2}-[A-Z][a-z]{2}-[0-9]{2}(\/)?$	karttoon 26FEB2018 - Emotet C2 [ 1637756/748179/CLFJ-QEMF/2017-17-Oct-17 ]
@@ -245,6 +246,8 @@
 ^(http(s)?:\/\/)?([^\x2F]+\/)+[A-Za-z]{4,5}-[A-Z0-9a-z]{14,15}_[A-Za-z]{8,9}-[A-Z0-9a-z]{2,4}(\/)?	karttoon 24APR2019 - Emotet DL [ cUGTV-Mv57WkQ3GM0CpaW_MVxDZUpCc-Ov/ ]
 # 81
 ^(http(s)?:\/\/)?([^\x2F]+\/)+(service|support|legale|nachrichten)\/(sich|(N|n)achpr(ufung)?|vertrauen|Frage|sichern)\/([0-1][0-9](-)?2019|2019(-)?[0-1][0-9])(\/)?$	karttoon 24APR2019 - Emotet DL [ support/nachpr/2019-04/ ]
+# 82
+^(?:http(s)?:\/\/)?(?:[^\x2F]+\/)+(((available|open|closed?|common|multifunctional|personale?|speciali?|privat(e|a)|test|additional|security|inter(ior|nal|ni)|individuale?|verifi(ed|able|cabile)|guarded|external|protected|disponibile|corporate|multifunzionale|contestee|aggiuntiva|chiusi|disponibile|sicurezza|custodito|aperto|comune|verificato)[_-]([a-zA-Z0-9]{3,16}[_-][a-zA-Z0-9]{4,15})\/)|(([a-zA-Z0-9]{2,16}[_-][a-zA-Z0-9]{4,16})[_-](resource|content|box|disk|sector|modul(e|o)|array|cloud|warehouse|forum|space|portale?|profil(e|o)|zon(e|a)|area|marketing|spazio|allineamento|module|disco|settore|sezione|risorsa)\/)|((available|open|closed?|common|multifunctional|personale?|speciali?|privat(e|a)|test|additional|security|inter(ior|nal|ni)|individuale?|verifi(ed|able|cabile)|guarded|external|protected|disponibile|corporate|multifunzionale|contestee|aggiuntiva|chiusi|disponibile|sicurezza|custodito|aperto|comune|verificato)[_-](resource|content|box|disk|sector|modul(e|o)|array|cloud|warehouse|forum|space|portale?|profil(e|o)|zon(e|a)|area|marketing|spazio|allineamento|module|disco|settore|sezione|risorsa)\/)|([a-zA-Z0-9]{4,14}[_-][a-zA-Z0-9]{5,16}[_-][a-zA-Z0-9]{3,13}[_-][a-zA-Z0-9]{2,16}\/)){2}([a-zA-Z0-9]{3,16}[_-][a-zA-Z0-9]{3,14}|[a-zA-Z0-9]{9})(\/)$	karttoon 12DEC2019 - Emotet C2 [ available_resource/special_warehouse/73mp_2yw19wws132w0/ ]
 ######################
 # Generic / FP Heavy #
 ######################
