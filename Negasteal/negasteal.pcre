@@ -1,0 +1,8 @@
+############################
+# Negasteal PCRE Collection #
+# @noottrak                #
+############################
+# 01 news.php?type=0&time=04:53:29
+##########
+# 01
+^(?:http(s)?:\/\/)?(?:[^\x2F]+\/)+news\.php\?type=0&time=[0-2][0-9]:[0-6][0-9]:[0-6][0-9]$	karttoon 15APR2020 - Negasteal C2 [ news.php?type=0&time=04:53:29 ]

@@ -3,7 +3,7 @@ rule troj_elf_cetus_a
     meta:
 	author = "Jeff White (karttoon@gmail.com) @noottrak"
         description = "Detects Cetus Linux Malware."
-        date = "2020-07-07"
+        date = "07JUL2020"
         hash = "b49a3f3cb4c70014e2c35c880d47bc475584b87b7dfcfa6d7341d42a16ebe443"
     strings:
         $ = "timeout %d docker -H %d.%d.%d.%d exec %s apt-get -yq update" ascii wide
