@@ -1,0 +1,8 @@
+#################################
+# SlothfulMedia PCRE Collection #
+# @noottrak                     #
+#################################
+# 01 v?m=C0tpQQcxAd80&i=1570631083
+##########
+# 01
+^(http(s)?:\/\/)?([^\x2F]+\/)v\?m=[A-Za-z0-9]{12}&i=[0-9]{10}$	karttoon 07OCT2020 - SlothfulMedia C2 - [ v?m=C0tpQQcxAd80&i=1570631083 ]
