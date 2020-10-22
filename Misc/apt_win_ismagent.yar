@@ -1,7 +1,7 @@
 rule apt_win_ismagent_vba : OilRig
 {
     meta:
-        author = "Jeff White [karttoon@gmail.com] @noottrak"
+        author = "Jeff White (karttoon@gmail.com) @noottrak"
         date = "26JUN2018"
         hash1 = "d7130e42663e95d23c547d57e55099c239fa249ce3f6537b7f2a8033f3aa73de"
         description = "Identify the VBA macro used by ISMAgent"
