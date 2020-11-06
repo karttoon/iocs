@@ -1,0 +1,1 @@
+alert http $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg: "Kimsuky C2 Boundary"; flow: established, to_client; file_data; content: "multipart/form-data\; boundary=----1f341c23b5204"; priority: 4; reference:url,https://blog.alyac.co.kr/3352;)
