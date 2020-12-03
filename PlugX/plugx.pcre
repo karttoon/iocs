@@ -1,0 +1,8 @@
+#########################
+# PlugX PCRE Collection #
+# @noottrak             #
+#########################
+# 01 update?wd=af23d6ce
+##########
+# 01
+^(http(s)?:\/\/)?(?:[^\x2F]+\/)update\?wd=[a-z0-9]{8}$	karttoon 03DEC2020 - PlugX C2 - [ update?wd=af23d6ce ]

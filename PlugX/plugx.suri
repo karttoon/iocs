@@ -1,0 +1,1 @@
+alert http $EXTERNAL_NET $HTTP_PORTS -> $HOME_NET any (msg:"PlugX C2"; flow:established, to_client; content:"Mozilla/4.0 (compatible\; MSIE 6.0\; Windows NT 5.1\;SV1\;"; http_user_agent; pcre:"/update\?wd=[a-z0-9]{8}/I"; priority: 4;)
