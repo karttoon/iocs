@@ -1,0 +1,8 @@
+###############################
+# FormBook PCRE Collection    #
+# @noottrak                   #
+###############################
+# 01 /b8eu/?_0DDk=GpK+4/Cvf5+28q0vfJauwpvuxbNz+CVTJN6sdbZ9OGl+VfrOYoKsAb8RZBlXroKGyT0hFc5nrEMBVCx9lN2W&JN6=ZHm4qrqP1TiXn4_p
+##########
+# 01
+^(http(s)?:\/\/)?(?:[^\x2F]+\/)[a-z0-9]{4}\/\?(([a-zA-Z0-9]{2,8}|(_|-)[a-zA-Z0-9]{1,4}(_[a-zA-Z0-9]{1,2})?)=[a-zA-Z0-9-_]{4,16}&[a-zA-Z0-9]{2,8}=[a-zA-Z0-9\/+-=_]{68,84}|([a-zA-Z0-9]{2,8}|(_|-)[a-zA-Z0-9]{1,4}(_[a-zA-Z0-9]{1,2})?)=[a-zA-Z0-9\/+-=_]{68,84}&([a-zA-Z0-9]{2,8}|(_|-)[a-zA-Z0-9]{1,4}(_[a-zA-Z0-9]{1,2})?)=[a-zA-Z0-9-_]{4,16})	karttoon 25FEB2022 - FormBook C2 [ /b8eu/?_0DDk=GpK+4/Cvf5+28q0vfJauwpvuxbNz+CVTJN6sdbZ9OGl+VfrOYoKsAb8RZBlXroKGyT0hFc5nrEMBVCx9lN2W&JN6=ZHm4qrqP1TiXn4_p ]
