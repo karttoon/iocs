@@ -1,0 +1,11 @@
+###############################
+# Qakbot PCRE Collection      #
+# @noottrak                   #
+###############################
+# 01 /urr/ZGm/Wv4/Yn3/cbTHonm.zip
+# 02 /urr/fckYL1Nqqm.zip
+##########
+# 01 (Stricter)
+^(http(s)?:\/\/)?(?:[^\x2F]+\/)(urr|atm)\/([a-zA-Z0-9]{1,3}\/){1,3}[a-zA-Z0-9]{7,10}\.zip	karttoon 22APR2022 - Qakbot DL [ /urr/ZGm/Wv4/Yn3/cbTHonm.zip ]
+# 02 (Looser)
+^(http(s)?:\/\/)?(?:[^\x2F]+\/)(urr|atm)\/(([a-zA-Z0-9]{1,3}\/){1,3})?[a-zA-Z0-9]{7,10}\.zip	karttoon 22APR2022 - Qakbot DL [ /urr/fckYL1Nqqm.zip ]
