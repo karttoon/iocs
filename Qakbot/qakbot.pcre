@@ -11,4 +11,4 @@
 # 02 (Looser)
 ^(http(s)?:\/\/)?(?:[^\x2F]+\/)(urr|atm)\/(([a-zA-Z0-9]{1,3}\/){1,3})?[a-zA-Z0-9]{7,10}\.zip	karttoon 22APR2022 - Qakbot DL [ /urr/fckYL1Nqqm.zip ]
 # 03
-^(http(s)?:\/\/)?(?:[^\x2F]+\/)[a-z]{2,4}\/index\.php\?[a-z]{1,12}-[a-z]{2,11}=[0-9]{1,2}	karttoon 18NOV2022 - Qakbot DL [ /cet/index.php?a-ltevi=7 ]
+^(http(s)?:\/\/)?(?:[^\x2F]+\/)[a-z]{2,4}\/index\.php\?[a-z]{1,13}-[a-z]{1,14}=[0-9]{1,2}$	karttoon 21NOV2022 - Qakbot DL [ /cet/index.php?a-ltevi=7 ]
